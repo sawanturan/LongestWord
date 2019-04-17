@@ -18,7 +18,7 @@ namespace LongestWord
 
         public void  MyFunctionA(string input)
         {
-            string[] words = input.Split('');
+            string[] words = input.Split(' ');
 
             int wordArrayLength = words.Length;
             int[] wordsLenth = new int[wordArrayLength];
